@@ -1,0 +1,34 @@
+I need to submit this as a challenge that will be scored.
+
+Please adjust the project to include these deliverables.
+
+Required layout
+README.md
+docs/
+  requirements.md
+src/
+tests/
+snapshot.schema.json
+deliverables/
+  extractions.jsonl
+  queue.json
+  accuracy.md
+  request-evidence.json
+  verification.md
+
+Deliverables:
+
+README.md	Setup, supported runtime/provider, exact intake/test/accuracy-check commands, environment-variable names, and how to inspect the queue
+Source code and dependency lockfile	Runnable application, extraction prompt, schema and model request configuration
+deliverables/extractions.jsonl	One current record per message: document_id, source_sha256, extraction (schema-conforming object, or null on error), status, owner, next_action, error (null on success), and response_source (mock, or the provider and model ID that produced the record)
+deliverables/queue.json	The review queue linked to extraction records by document_id
+deliverables/accuracy.md	Source-derived expected fields for the 20 supplied messages and one paraphrase you author; the field-comparison procedure, exact-match counting/denominator rules, factual-error reporting and model/configuration; distinguish mocked examples from any optional live observations
+deliverables/request-evidence.json	Credential-redacted example model request showing the model ID and configuration used, plus the implemented response handling
+deliverables/verification.md	Verification commands and assertions, their intended comparisons, operating limits, and any observed results or repairs clearly identified as such
+Coding-session capture	Session record paired with the submitted commit, collected through the facilitator's capture setup
+
+---
+
+<send_user_message_question_reply>
+[{"answer":"Complete the submission in this task","question":"For this submission-preparation task, should I complete implementation and verification without pausing for a separate commit after each failing and passing test? I’ll still add tests before implementation and leave the final commit/push to you.","questionItemId":"[\"request_user_input_async\",\"call_70f4f0ab033541f69a98bb6711dd7f76\",0]"}]
+</send_user_message_question_reply>
