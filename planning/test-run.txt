@@ -1,9 +1,56 @@
+Configuration: Python 3.12.3; dependencies=uv.lock; provider=mock with injected HTTP responses only; real API_KEY unset; no live model call.
+Command: env -u API_KEY .venv/bin/python -m unittest discover -s tests -v
+
+test_independent_accuracy_comparison (test_accuracy.AccuracyTests.test_independent_accuracy_comparison) ... ok
+test_cli_intake_inspect_retry_resume (test_cli.CLITests.test_cli_intake_inspect_retry_resume) ... ok
+test_consistent_exports (test_exports.ExportTests.test_consistent_exports) ... ok
+test_documented_handover_workflow (test_handover.HandoverTests.test_documented_handover_workflow) ... ok
+test_packaging_and_request_evidence (test_handover.HandoverTests.test_packaging_and_request_evidence) ... ok
+test_document_identity (test_inputs.InputTests.test_document_identity) ... ok
+test_export_source_boundary (test_inputs.InputTests.test_export_source_boundary) ... ok
+test_quote_validation (test_inputs.InputTests.test_quote_validation) ... ok
+test_schema_contract (test_inputs.InputTests.test_schema_contract) ... ok
+test_interruption_recovery (test_operations.OperationTests.test_interruption_recovery) ... ok
+test_overlapping_operators_and_fencing (test_operations.OperationTests.test_overlapping_operators_and_fencing) ... ok
+test_peak_mock_workload (test_operations.OperationTests.test_peak_mock_workload) ... ok
+test_retry_budget (test_operations.OperationTests.test_retry_budget) ... ok
+test_shared_request_budget (test_operations.OperationTests.test_shared_request_budget) ... ok
+test_slow_rate_limited_and_unavailable (test_operations.OperationTests.test_slow_rate_limited_and_unavailable) ... ok
+test_change_permission (test_pipeline.PipelineTests.test_change_permission) ... ok
+test_complete_request (test_pipeline.PipelineTests.test_complete_request) ... ok
+test_conflicting_environment (test_pipeline.PipelineTests.test_conflicting_environment) ... ok
+test_conflicting_manager (test_pipeline.PipelineTests.test_conflicting_manager) ... ok
+test_date_correction (test_pipeline.PipelineTests.test_date_correction) ... ok
+test_embedded_instructions (test_pipeline.PipelineTests.test_embedded_instructions) ... ok
+test_environment_correction (test_pipeline.PipelineTests.test_environment_correction) ... ok
+test_fresh_paraphrase (test_pipeline.PipelineTests.test_fresh_paraphrase) ... ok
+test_identifier_mismatch (test_pipeline.PipelineTests.test_identifier_mismatch) ... ok
+test_missing_dates (test_pipeline.PipelineTests.test_missing_dates) ... ok
+test_missing_required_facts (test_pipeline.PipelineTests.test_missing_required_facts) ... ok
+test_other_message (test_pipeline.PipelineTests.test_other_message) ... ok
+test_relative_dates (test_pipeline.PipelineTests.test_relative_dates) ... ok
+test_reverse_dates (test_pipeline.PipelineTests.test_reverse_dates) ... ok
+test_routing_precedence (test_pipeline.PipelineTests.test_routing_precedence) ... ok
+test_security_routing (test_pipeline.PipelineTests.test_security_routing) ... ok
+test_withdrawal (test_pipeline.PipelineTests.test_withdrawal) ... ok
 test_mock_provider_contract (test_provider.MockProviderTests.test_mock_provider_contract) ... ok
+test_policy_refresh (test_refresh.RefreshTests.test_policy_refresh) ... ok
+test_settings_refresh (test_refresh.RefreshTests.test_settings_refresh) ... ok
+test_http_error_classes (test_response_handling.ResponseTests.test_http_error_classes) ... ok
+test_interrupted_response (test_response_handling.ResponseTests.test_interrupted_response) ... ok
+test_malformed_output (test_response_handling.ResponseTests.test_malformed_output) ... ok
+test_provider_configuration_and_redaction (test_response_handling.ResponseTests.test_provider_configuration_and_redaction) ... ok
+test_provider_failure (test_response_handling.ResponseTests.test_provider_failure) ... ok
+test_refusal_response (test_response_handling.ResponseTests.test_refusal_response) ... ok
 test_a_mock_reply_is_read_with_no_key_and_no_network (test_starter.MockResponse.test_a_mock_reply_is_read_with_no_key_and_no_network) ... ok
 test_each_request_export_has_message_text_and_a_hash (test_starter.SuppliedFiles.test_each_request_export_has_message_text_and_a_hash) ... ok
 test_the_schema_names_the_fields_it_requires (test_starter.SuppliedFiles.test_the_schema_names_the_fields_it_requires) ... ok
+test_changed_source (test_state.StateTests.test_changed_source) ... ok
+test_failed_retry_after_success (test_state.StateTests.test_failed_retry_after_success) ... ok
+test_incremental_batches (test_state.StateTests.test_incremental_batches) ... ok
+test_unchanged_rerun (test_state.StateTests.test_unchanged_rerun) ... ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.004s
+Ran 48 tests in 54.456s
 
 OK

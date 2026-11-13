@@ -1,0 +1,18 @@
+{
+  "observation": "Read-only capture configuration and pending preview inspected during submission preparation; no final commit created",
+  "tool": "Entire",
+  "enabled": true,
+  "agents": ["Codex"],
+  "session_id": "01a1d581-fb9c-79f2-83ae-dac253b34b0f",
+  "checkpoint_push_policy": "automatic",
+  "checkpoint_sync_remote": "origin",
+  "pending_next_checkpoint_seen": true,
+  "final_submission_commit": null,
+  "final_commit_capture_pair_verified": false,
+  "commands_inspected": [
+    "entire status --json",
+    "entire agent-help checkpoint list",
+    "entire checkpoint list --pending --json"
+  ],
+  "next_action": "User creates the final submission commit, verifies its automatically paired session record using facilitator instructions, and pushes the default branch. This summary is not a replacement for the real capture."
+}

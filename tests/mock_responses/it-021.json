@@ -1,0 +1,16 @@
+{
+  "id": "mock-it-021",
+  "object": "chat.completion",
+  "model": "mock",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"request_id\": \"IT-021\", \"kind\": \"new\", \"requester\": \"Maya Chen\", \"team\": \"Analytics\", \"system\": \"Atlas\", \"environment\": \"staging\", \"permission\": \"read\", \"start_date\": \"2026-10-23\", \"end_date\": \"2026-11-06\", \"manager\": \"Priya Shah\", \"request_date\": \"2026-10-22\", \"business_purpose\": \"I need to check the weekly conversion dashboard against our spreadsheet.\", \"supporting_quotes\": [\"On 2026-10-22, Maya Chen in Analytics is filing new request IT-021. Please let me read Atlas in staging between 2026-10-23 and 2026-11-06. Priya Shah is my manager. I need to check the weekly conversion dashboard against our spreadsheet.\"], \"issues\": []}",
+        "refusal": null
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

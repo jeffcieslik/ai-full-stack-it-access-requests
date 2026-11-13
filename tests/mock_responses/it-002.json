@@ -1,0 +1,16 @@
+{
+  "id": "mock-it-002",
+  "object": "chat.completion",
+  "model": "mock",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"request_id\": \"IT-002\", \"kind\": \"new\", \"requester\": \"Owen Reed\", \"team\": \"Payments\", \"system\": \"Ledger\", \"environment\": \"production\", \"permission\": \"write\", \"start_date\": \"2026-10-24\", \"end_date\": \"2026-10-25\", \"manager\": \"Elena Park\", \"request_date\": \"2026-10-22\", \"business_purpose\": \"We have several settlement entries associated with the wrong reconciliation batch.\", \"supporting_quotes\": [\"Request IT-002, 2026-10-22 - Owen Reed in Payments requesting new write access to Ledger in production. Needed during 2026-10-24 and 2026-10-25. My manager is Elena Park.\\n\\nWe have several settlement entries associated with the wrong reconciliation batch. Operations has prepared the replacement values. I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report. I'll be available later to review the changes with the team. It's for this particular cycle of reconciliations, so please make the temporary access during those times.\"], \"issues\": []}",
+        "refusal": null
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

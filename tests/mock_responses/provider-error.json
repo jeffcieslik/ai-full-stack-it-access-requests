@@ -1,0 +1,6 @@
+{
+  "mock_error": {
+    "message": "Simulated model service unavailable",
+    "retryable": true
+  }
+}
