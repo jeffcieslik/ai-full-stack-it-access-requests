@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "it-access-requests"
+version = "0.1.0"
+description = "Prepare access-request messages for human review"
+requires-python = ">=3.12"
+dependencies = ["jsonschema>=4.26,<5"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["it_access"]
