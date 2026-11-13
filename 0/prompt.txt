@@ -1,0 +1,15 @@
+Read challenge.md, docs/requirements.md, materials/office-policy.md, snapshot.schema.json, materials/requests/ 
+Draft my planning/spec.md file.  I need a table with columns ID, Requirement, Source, Check.
+	one numbered requirement per line, R-01, R-02, ..., each one testable sentence;
+	for each, the file and section it comes from, with the exact words quoted;
+	for each, how it will be checked: which test, which file to inspect, or which command to run;
+	nothing invented: a requirement the files do not state is not in the spec.
+	Do not write any code.
+
+---
+
+I added /planning folder
+
+---
+
+List every place where two readings are possible, or where a term is not defined. For each, look it up (in the files first, then in the documentation of the tool or standard it names) and write what you found. Add a section ## Open questions to the spec: each question, what you found, and what stays open. Do not turn an open question into a requirement by guessing.
